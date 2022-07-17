@@ -7,14 +7,15 @@ function Contact(){
 
   const sendEmail = (e) => {
     e.preventDefault();
+    e.target.reset();
 
     emailjs.sendForm('service_5tl4s04', 'template_w4p5t4l', form.current, 'tZ0iWTuy96HYxUI6t')
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text);   
       }, (error) => {
           console.log(error.text);
       });
-      alert('Email sent,thank you!')
+      alert('Thank you for reaching out. This is to let you know I got your email and I will get back to you in the shortest time, Cheers!')
   };
 
     return(

@@ -553,4 +553,9 @@ display: none;
   width: 80%;
   padding-left: 25px;
 }
+
+.alert{
+  color: green;
+  background-color: red;
+}
 }
