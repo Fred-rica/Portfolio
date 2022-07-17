@@ -13,7 +13,7 @@ function Introduction(){
             <p>
             Hello! I specialize in building the front end of web development, making the web a beautiful experince one app at a time.
             </p>
-              <p>My goal is to ensure that your users have the best user experince while interacting with your applications. I am just the front end developer your team needs! </p>
+              <p>My goal is to ensure that your users have the best experince while interacting with your applications. I am just the front end developer your team needs! </p>
             
             <div   className="Contact-button1">
               <a href="#contact"

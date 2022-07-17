@@ -35,7 +35,7 @@ const toggleNav=()=>{
         <div>
           <a
             className="Nav-button"
-            href="https://docs.google.com/document/d/1hzSN7ouaeqUoUtqJNCN7VJbNd4IlJdZS/edit?usp=sharingouid=102862413375125228835rtpof=truesd=true"
+            href="https://docs.google.com/document/d/1xdC1mPlK7c9dTbtVoD0lrMTw1zG2UfCR/edit?usp=sharingouid=102862413375125228835rtpof=truesd=true"
             target="_blank" rel="noreferrer noopener"
           >
             View My CV &nbsp; <i className="fa-solid fa-download fa-fw"></i>
@@ -74,7 +74,7 @@ const toggleNav=()=>{
         <li onClick={toggleNav}>
           <a
             className=" mobile-nav-menu"
-            href="https://docs.google.com/document/d/1hzSN7ouaeqUoUtqJNCN7VJbNd4IlJdZS/edit?usp=sharingouid=102862413375125228835rtpof=truesd=true"
+            href="https://docs.google.com/document/d/1xdC1mPlK7c9dTbtVoD0lrMTw1zG2UfCR/edit?usp=sharingouid=102862413375125228835rtpof=truesd=true"
             target="_blank" rel="noreferrer noopener"
           >
             Resume
