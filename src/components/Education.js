@@ -16,12 +16,12 @@ function Education(){
                     JULY  - PRESENT
                   </div>
                   <div className="Two-columgrid-header">
-                    Women <br />
-                    Techsters
+                    Tech <br />
+                    4Dev
                   </div>
                 </div>
-                <p>
-                  Software engineering Fellow at  Women Techsters an initiative of Tech4dev in partnership with Microsft
+                <p className="education-paragraph">
+                  Women Techsters Fellow, Software Engineering.<br/> An initiative of Tech4dev in partnership with Microsoft.
                 </p>
               </div>
               <div>
@@ -34,7 +34,7 @@ function Education(){
                     In Tech
                   </div>
                 </div>
-                <p>
+                <p className="education-paragraph">
                   Front End developer trainee at Black Girls in Tech Nigeria.
                 </p>
               </div>
@@ -48,7 +48,7 @@ function Education(){
                     Nigeria
                   </div>
                 </div>
-                <p>
+                <p className="education-paragraph">
                   B.Sc (Hons) Accounting, Landmark University, Omuaran, Nigeria
                 </p>
               </div>

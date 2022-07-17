@@ -19,7 +19,7 @@ const toggleNav=()=>{
       {/* <!-- menu items --> */}
       <div className="Menu-Wrapper">
         <div>
-          <a className="active" href="#home">
+          <a className="active" href="#">
             Home <i className="fa-solid fa-angle-down fa-fw"></i>
           </a>
         </div>

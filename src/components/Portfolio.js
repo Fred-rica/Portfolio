@@ -28,10 +28,10 @@ function Portfolio(){
               </div>
               <div className="portfolio-div">
                 <a
-                  href="https://fred-rica.github.io/portfolio-website/"
+                  href="https://fredricae.netlify.app/"
                   target="blank"
                   >
-                  <div className="picture-animation"></div>
+                  
                   <img
                     src="Assets/Portfolio-website.jpeg"
                     alt="porfolio website "
@@ -45,34 +45,34 @@ function Portfolio(){
 
               <div className="portfolio-div">
                 <a
-                  href="https://fred-rica.github.io/portfolio-website/"
+                  href="https://github.com/Fred-rica/Paystack-checkout-demo-clone.git"
                   target="blank"
                   >
-                  <div className="picture-animation"></div>
+                  
                   <img
-                    src="Assets/Portfolio-website.jpeg"
-                    alt="porfolio website "
+                    src="Assets/Paystack demo clone.jpeg"
+                    alt="Paystack demo clone "
                     className="portfolio-picture"
                   />
                   <div className="portfolio-header2">
-                    Portfolio website
+                    Paystack demo clone
                   </div>
                 </a>
               </div>
 
               <div className="portfolio-div">
                 <a
-                  href="https://fred-rica.github.io/portfolio-website/"
+                  href="https://github.com/Fred-rica/Net-Ninja-website.git"
                   target="blank"
                   >
-                  <div className="picture-animation"></div>
+                  
                   <img
-                    src="Assets/Portfolio-website.jpeg"
+                    src="Assets/Net-Ninja-Website.jpeg"
                     alt="porfolio website "
                     className="portfolio-picture"
                   />
                   <div className="portfolio-header2">
-                    Portfolio website
+                  Net Ninja Website
                   </div>
                 </a>
               </div>
