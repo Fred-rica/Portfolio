@@ -97,7 +97,7 @@ nav {
   margin: auto;
 }
 .intro-section {
-  height: 550px;
+  height: 590px;
   border-bottom: 1px solid #585d65;
 }
 .intro-section h1 {
@@ -156,7 +156,7 @@ nav {
 
 }
 .Sections {
-  padding: 50px 0;
+  padding: 50px 0px;
   width: 100%;
   border-bottom: 1px solid #585d65;
 }
