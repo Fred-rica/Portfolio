@@ -122,8 +122,20 @@ nav {
 .Contact-button {
   margin-top: 50px;
   margin-bottom: 70px;
+  color: white;
+  background-color: var(--body-bg);
+  padding: 20px 30px;
+  border: 1px solid #585d65;
+  border-radius: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition:all .5s ease-in-out
 }
-.Contact-button a {
+.Contact-button1{
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.Contact-button1 a {
   color: white;
   padding: 20px 30px;
   border: 1px solid #585d65;
@@ -132,7 +144,12 @@ nav {
   text-transform: uppercase;
   transition:all .5s ease-in-out
 }
-.Contact-button a:hover {
+.Contact-button1 a:hover {
+  border: 1px solid var(--pri-color);
+  color: var(--pri-color);
+
+}
+.Contact-button:hover {
   border: 1px solid var(--pri-color);
   color: var(--pri-color);
 
@@ -230,34 +247,14 @@ nav {
   color: #FFBF00;
 }
 .portfolio-div{
-    position: relative;
+  width: 280px;
 }
 .portfolio-picture{
     height: 150px;
     width: 270px;
-}
-.picture-animation{
-    height: 120px;
-    width: 200px;
-    background-color: var(--pri-color);
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%,-25%);
-    display: none;
-}
-.portfolio-div a :hover .picture-animation{
-    display:block;
+    margin-top: 20px;
 }
 
-.portfolio-header1{
-color: var(--pri-color);
-text-transform: uppercase;
-font-weight: 600;
-font-size: 12px;
-text-align: center;
-margin: 10px 0 5px 0;
-}
 .portfolio-header2{
     color: white;
     font-weight: 700;
@@ -279,7 +276,7 @@ width: 220px;
 }
 .contact-input-label{
   position: absolute;
-  bottom: 39px;
+  top: -18px;
   left: 40px;
   background-color: var(--body-bg);
   font-weight: 800;
@@ -322,7 +319,7 @@ input:focus::placeholder {
   font-weight: 800;
   text-transform: uppercase;
   left: 40px;
-  bottom: 137px;
+  top: -18px;
 }
 .contact-textarea-label span{
   color: var(--pri-color);
@@ -419,58 +416,77 @@ display: none;
   }
   .Menu-open{
     display: inline-block;
-    position: absolute;
+    position: fixed;
     right: 10px;
-    top: 10px;
+    top: 100px;
     z-index: 5;
-    border: none;
     background-color: inherit;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50% ;
     
   }
   .Nav-close-button{
-    margin: 20px 0 0 10px;
-    border: none;
+    margin: 30px 0 0 200px;
     background-color: inherit;
-    color: var(--pri-color);
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 50% ;
   }
   .Mobile-Navbar{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     background-color: var(--body-bg);
     left: 0;
     top: 0;
     box-sizing: border-box;
     padding: 0 20px;
-    z-index: 10;
-    
-    
+    z-index: 10;  
+}
+.mobile-nav-wrapper{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 70%;
+  
+}
+.mobile-nav-menu{
+  text-decoration: none;
+  color: var(--pri-color);
+  font-weight: 800;
+  font-size: 25px;
+  text-transform: uppercase;
+  transition:all .5s ease-in-out
+}
+.mobile-nav-menu:hover{
+  color: var(--pri-color);
 }
 .hero-image {
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   position: relative;
 }
+.intro-section{
+  height: 700px;
+}
 .intro-section h1{
-/* border: 1px solid red; */
-text-align: center;
+  text-align: center;
   font-weight: 800;
   color: #ffff;
   font-size: 42px;
   line-height: 58px;
-  margin:0 ;
-  height: 180px;
-  width: 80%;
+  margin: -150px 20px 0 20px;
   background-color: var(--body-bg);
-  padding: 0px;
+  padding:60px 10px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: -50%;
-  left: 10%;
-  border-radius: 150px 150px 0 0;
-  
 }
 .section-wrapper {
   width: 100%;
@@ -498,9 +514,38 @@ text-align: center;
   flex-direction: column;
   gap: 0px;
 }
+.contact-details{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .container {
-  width: 90%;
+  width: 80%;
+  text-align: center;
   position: relative;
+}
+.Section-Header{
+  font-size: 22px;
+  font-weight: 400;
+  
+}
+.portfolio-header2{
+ margin-bottom: 20px;
+  color: var(--pri-color);
+  max-width: 200px;
+
+}
+.contact-form{
+  width: 80vw;
+}
+.My-contact-details-wrapper{
+  width: 85vw;
+}
+
+.My-contact-details{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
 }
 
 }

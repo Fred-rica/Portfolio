@@ -7,7 +7,7 @@ const toggleNav=()=>{
 }
   return (
     <div>
-    <nav>
+    <nav >
       {/* <!-- Logo and Name --> */}
       <div className="Logo-wrapper">
         <img className="logo" src="Favicon.png" alt="logo" />
@@ -19,7 +19,7 @@ const toggleNav=()=>{
       {/* <!-- menu items --> */}
       <div className="Menu-Wrapper">
         <div>
-          <a className="active" href="#">
+          <a className="active" href="#home">
             Home <i className="fa-solid fa-angle-down fa-fw"></i>
           </a>
         </div>
@@ -46,15 +46,43 @@ const toggleNav=()=>{
     
     {/* Mobile-Navbar */}
 
+
     <button onClick={toggleNav} className=" Menu-open">
-        <i class="fa-solid fa-bars fa-2x"></i>
+    <i className="fa-solid fa-bars-staggered fa-2x"></i>
       </button>
 
       <aside className={openNav?"Mobile-Navbar":"Menu-close"} id="mobile-side-bar" >
-        
-          <button className="Nav-close-button" onClick={toggleNav}>
-            <i class="fa-solid fa-xmark fa-3x "></i>
+      <button className="Nav-close-button" onClick={toggleNav}>
+            <i className="fa-solid fa-xmark fa-3x "></i>
           </button>
+
+        <ul className="mobile-nav-wrapper">
+        <li onClick={toggleNav}>
+          <a  className="mobile-nav-menu active" href="#home"> 
+            Home <i className="fa-solid fa-angle-down fa-fw"></i>
+          </a>
+        </li>
+        <li onClick={toggleNav}>
+          <a  className="mobile-nav-menu" href="#about">About</a>
+        </li>
+        <li onClick={toggleNav}>
+          <a className="mobile-nav-menu" href="#portfolio">Portfolio</a>
+        </li>
+        <li onClick={toggleNav}>
+          <a  className="mobile-nav-menu" href="#contact">Contact</a>
+        </li>
+        <li onClick={toggleNav}>
+          <a
+            className=" mobile-nav-menu"
+            href="https://docs.google.com/document/d/1hzSN7ouaeqUoUtqJNCN7VJbNd4IlJdZS/edit?usp=sharingouid=102862413375125228835rtpof=truesd=true"
+            target="_blank" rel="noreferrer noopener"
+          >
+            Resume
+          </a>
+        </li>
+        </ul>
+
+          
         
         </aside>
     </div>

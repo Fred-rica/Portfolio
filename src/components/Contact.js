@@ -1,6 +1,22 @@
-import React from "react";
+import React, {useRef}from "react";
+import emailjs from 'emailjs-com';
 
 function Contact(){
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_5tl4s04', 'template_w4p5t4l', form.current, 'tZ0iWTuy96HYxUI6t')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      alert('Email sent,thank you!')
+  };
+
     return(
         <div id="contact" className="Sections contact-section">
             <div className="container">
@@ -10,13 +26,14 @@ function Contact(){
             </header>
             <div className="Two-columgrid-wrapper">
               <div className="contact-form">
-                <form action="">
+                <form ref={form} onSubmit={sendEmail}>
                   <div className="contact-input-wrapper">
                     <p className="contact-input-label">
                       &nbsp;&nbsp; Full name <span>*</span> &nbsp; &nbsp;
                     </p>
                     <input
                       type="text"
+                      name="user_name"
                       className="contact-input-box"
                       placeholder="e.g Ade Musa Chidi"
                     />
@@ -27,6 +44,7 @@ function Contact(){
                     </p>
                     <input
                       type="email"
+                      name="user_email"
                       className="contact-input-box"
                       placeholder="example@domain.com"
                     />
@@ -36,7 +54,7 @@ function Contact(){
                       &nbsp;&nbsp; message <span>*</span> &nbsp; &nbsp;
                     </p>
                     <textarea
-                      name=""
+                      name="message"
                       id=""
                       cols="30"
                       rows="10"
@@ -44,12 +62,11 @@ function Contact(){
                       placeholder="To write"
                     ></textarea>
                   </div>
-                  <div className="Contact-button">
-                    <a href="#"
-                      >send message &nbsp;
+                  <button type="submit" name="submit" className="Contact-button">
+                    send message &nbsp;
                       <i className="fa-solid fa-angle-right fa-fw"></i>
-                    </a>
-                  </div>
+                    
+                  </button>
                 </form>
               </div>
               <div className="My-contact-details-wrapper">

@@ -16,13 +16,11 @@ function Portfolio(){
                   href="https://freddies-todo-app.netlify.app/"
                   target="blank"
                 >
-                  <div className="picture-animation"></div>
                   <img
                     src="Assets/To-do-App.jpeg"
                     alt="To do App"
                     className="portfolio-picture"
                   />
-                  <div className="portfolio-header1">project</div>
                   <div className="portfolio-header2">
                     To Do App
                   </div>
@@ -39,7 +37,40 @@ function Portfolio(){
                     alt="porfolio website "
                     className="portfolio-picture"
                   />
-                  <div className="portfolio-header1">project</div>
+                  <div className="portfolio-header2">
+                    Portfolio website
+                  </div>
+                </a>
+              </div>
+
+              <div className="portfolio-div">
+                <a
+                  href="https://fred-rica.github.io/portfolio-website/"
+                  target="blank"
+                  >
+                  <div className="picture-animation"></div>
+                  <img
+                    src="Assets/Portfolio-website.jpeg"
+                    alt="porfolio website "
+                    className="portfolio-picture"
+                  />
+                  <div className="portfolio-header2">
+                    Portfolio website
+                  </div>
+                </a>
+              </div>
+
+              <div className="portfolio-div">
+                <a
+                  href="https://fred-rica.github.io/portfolio-website/"
+                  target="blank"
+                  >
+                  <div className="picture-animation"></div>
+                  <img
+                    src="Assets/Portfolio-website.jpeg"
+                    alt="porfolio website "
+                    className="portfolio-picture"
+                  />
                   <div className="portfolio-header2">
                     Portfolio website
                   </div>
