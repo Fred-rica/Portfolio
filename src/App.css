@@ -537,7 +537,7 @@ display: none;
 
 }
 .contact-form{
-  width: 80vw;
+  max-width: 80vw;
 }
 .My-contact-details-wrapper{
   width: 85vw;
