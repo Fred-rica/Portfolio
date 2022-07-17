@@ -482,7 +482,7 @@ display: none;
   line-height: 58px;
   margin: -150px 20px 0 20px;
   background-color: var(--body-bg);
-  padding:70px;
+  padding:60px 10px;
   border-radius: 50%;
   display: flex;
   justify-content: center;

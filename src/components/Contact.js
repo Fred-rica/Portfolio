@@ -75,11 +75,7 @@ function Contact(){
                   <div>Front-end Developer</div>
                 </header>
                 <div className="My-contact-details">
-                  <div className="contact-details-question">Age:</div>
-                  <div className="contact-details-answer">24</div>
-                </div>
-                <div className="My-contact-details">
-                  <div className="contact-details-question">Freelance:</div>
+                  <div className="contact-details-question">Work status:</div>
                   <div className="contact-details-answer">Available</div>
                 </div>
                 <div className="My-contact-details">
