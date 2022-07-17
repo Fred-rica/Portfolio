@@ -6,6 +6,7 @@ function Contact(){
   const form = useRef();
 
   const sendEmail = (e) => {
+    e.preventDefault();
 
     emailjs.sendForm('service_5tl4s04', 'template_w4p5t4l', form.current, 'tZ0iWTuy96HYxUI6t')
       .then((result) => {
