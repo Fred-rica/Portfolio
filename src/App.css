@@ -212,7 +212,7 @@ nav {
   font-size: 20px;
   font-weight: 700;
   margin: 20px 0 30px 0;
-  border: 2px;
+ 
 }
 .Two-columgrid-icon {
   color: var(--pri-color);
@@ -473,7 +473,7 @@ display: none;
   position: relative;
 }
 .intro-section{
-  height: 700px;
+  height: 590px;
 }
 .intro-section h1{
   text-align: center;
@@ -483,7 +483,7 @@ display: none;
   line-height: 58px;
   margin: -150px 20px 0 20px;
   background-color: var(--body-bg);
-  padding:60px 10px;
+  padding:60px 60px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -537,14 +537,19 @@ display: none;
 .portfolio-header2{
  margin-bottom: 20px;
   color: var(--pri-color);
-  max-width: 200px;
 
 }
 .contact-form{
-  width: 80vw;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 .My-contact-details-wrapper{
   width: 85vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
 }
 
 .My-contact-details{
@@ -554,9 +559,24 @@ display: none;
 }
 
 .education-paragraph{
-  width: 80%;
-  padding-left: 25px;
+  margin-bottom: 50px;
 }
 
+.Two-columgrid-content-header-vertical {
+  writing-mode:horizontal-tb;
+  margin-bottom: 5px;
+  color: var(--pri-color);
+}
+.Two-columgrid-content-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.Two-columgrid-header {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  
+}
 
 }

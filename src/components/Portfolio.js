@@ -43,39 +43,7 @@ function Portfolio(){
                 </a>
               </div>
 
-              <div className="portfolio-div">
-                <a
-                  href="https://github.com/Fred-rica/Paystack-checkout-demo-clone.git"
-                  target="blank"
-                  >
-                  
-                  <img
-                    src="Assets/Paystack demo clone.jpeg"
-                    alt="Paystack demo clone "
-                    className="portfolio-picture"
-                  />
-                  <div className="portfolio-header2">
-                    Paystack demo clone
-                  </div>
-                </a>
-              </div>
-
-              <div className="portfolio-div">
-                <a
-                  href="https://github.com/Fred-rica/Net-Ninja-website.git"
-                  target="blank"
-                  >
-                  
-                  <img
-                    src="Assets/Net-Ninja-Website.jpeg"
-                    alt="porfolio website "
-                    className="portfolio-picture"
-                  />
-                  <div className="portfolio-header2">
-                  Net Ninja Website
-                  </div>
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>
