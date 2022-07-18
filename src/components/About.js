@@ -16,7 +16,7 @@ function About(){
             </p>
             <p className="About-section-paragraph"> I have a proven track record of working well without supervision as well as delivering maximally within a team. I am passionate about people, good books and Music</p>
             
-            <div className="Two-columgrid-wrapper">
+            <div className="Two-columgrid-wrapper grid">
               <div className="contact-details">
                
                 <div className="contact-details-question">Work Status:</div>

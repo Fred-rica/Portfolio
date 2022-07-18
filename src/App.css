@@ -514,7 +514,7 @@ display: none;
 .Two-columgrid-wrapper{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0px;
 }
 .contact-details{
   display: flex;
@@ -587,5 +587,12 @@ display: none;
 .bottom{
   margin-bottom: 0;
 }
+.Contact-button {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
 
+.grid{
+  gap: 10px;
+}
 }
