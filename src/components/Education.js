@@ -48,7 +48,7 @@ function Education(){
                     Nigeria
                   </div>
                 </div>
-                <p className="education-paragraph">
+                <p className="education-paragraph bottom">
                   B.Sc (Hons) Accounting, Landmark University, Omuaran, Nigeria
                 </p>
               </div>

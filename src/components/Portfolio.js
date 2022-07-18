@@ -37,7 +37,7 @@ function Portfolio(){
                     alt="porfolio website "
                     className="portfolio-picture"
                   />
-                  <div className="portfolio-header2">
+                  <div className="bottom portfolio-header2">
                     Portfolio website
                   </div>
                 </a>

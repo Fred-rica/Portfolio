@@ -14,7 +14,7 @@ function About(){
             I am consistently looking forward to working on new and challenging projects as they allow me to grow while delivering utmost satisfaction to my clients.
 
             </p>
-            <p> I have a proven track record of working well without supervision as well as delivering maximally within a team. I am passionate about people, good books and Music</p>
+            <p className="About-section-paragraph"> I have a proven track record of working well without supervision as well as delivering maximally within a team. I am passionate about people, good books and Music</p>
             
             <div className="Two-columgrid-wrapper">
               <div className="contact-details">
@@ -28,7 +28,7 @@ function About(){
                 <div className="contact-details-question">City:</div>
                 <div className="contact-details-answer">Lagos, Nigeria</div>
                 <div className="contact-details-question">email:</div>
-                <div className="contact-details-answer">
+                <div className="contact-details-answer" >
                   egbelefredrica0@gmail.com
                 </div>
               </div>
