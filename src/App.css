@@ -550,6 +550,9 @@ display: none;
   width: 85vw;
   display: flex;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 
 }
