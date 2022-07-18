@@ -5,10 +5,10 @@ function Introduction(){
     return(
         <div id="intro" className="intro-section">
           <div className="container">
-            {/* <h1>
+            <h1>
               Egbele <br />
               Fredrica
-            </h1> */}
+            </h1>
             <h4>FRONT-END DEVELOPER</h4>
             <p>
             Hello! I specialize in building the front end of web development, making the web a beautiful experience one app at a time.
