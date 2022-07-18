@@ -27,7 +27,7 @@ function Contact(){
             </header>
             <div className="Two-columgrid-wrapper">
               <div className="contact-form">
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={form} onSubmit={sendEmail} action="/action_page.php">
                   <div className="contact-input-wrapper">
                     <p className="contact-input-label">
                       &nbsp;&nbsp; Full name <span>*</span> &nbsp; &nbsp;
@@ -35,6 +35,8 @@ function Contact(){
                     <input
                       type="text"
                       name="user_name"
+                      id="user_name"
+                      required
                       className="contact-input-box"
                       placeholder="e.g Ade Musa Chidi"
                     />
@@ -46,6 +48,8 @@ function Contact(){
                     <input
                       type="email"
                       name="user_email"
+                      id="user_email"
+                      required
                       className="contact-input-box"
                       placeholder="example@domain.com"
                     />
@@ -56,7 +60,8 @@ function Contact(){
                     </p>
                     <textarea
                       name="message"
-                      id=""
+                      id="message"
+                      required
                       cols="30"
                       rows="10"
                       className="contact-textarea"
@@ -81,7 +86,7 @@ function Contact(){
                 </div>
                 <div className="My-contact-details">
                   <div className="contact-details-question">phone:</div>
-                  <div className="contact-details-answer">+2348137058166</div>
+                  <div className="contact-details-answer">+2348147058199</div>
                 </div>
                 <div className="My-contact-details">
                   <div className="contact-details-question">Residence:</div>

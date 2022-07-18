@@ -10,8 +10,9 @@ function About(){
               <h3>my story</h3>
             </header>
             <p className="About-section-paragraph">
-              With a drive to help businesses/brands provide users with the best online experince, I am committed to developing innovative software applications.
-              I am consistently looking forward to working on new and challenging projects as they afford me the opportunity to grow while delivering utmost staisfaction to my clients.
+            With a drive to help businesses/brands provide users with the best online experience, I am committed to developing innovative software applications.
+            I am consistently looking forward to working on new and challenging projects as they allow me to grow while delivering utmost satisfaction to my clients.
+
             </p>
             <p> I have a proven track record of working well without supervision as well as delivering maximally within a team. I am passionate about people, good books and Music</p>
             
