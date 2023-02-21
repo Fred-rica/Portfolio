@@ -74,7 +74,7 @@ const toggleNav=()=>{
         <li onClick={toggleNav}>
           <a
             className=" mobile-nav-menu"
-            href="https://docs.google.com/document/d/1xdC1mPlK7c9dTbtVoD0lrMTw1zG2UfCR/edit?usp=sharingouid=102862413375125228835rtpof=truesd=true"
+            href="https://docs.google.com/document/d/1xqYFkJtUZ9TDd3dTGmAXoSCCRzjM60eSLO5fAWW9eoE/edit?usp=sharing"
             target="_blank" rel="noreferrer noopener"
           >
             Resume
